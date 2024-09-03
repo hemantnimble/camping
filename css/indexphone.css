@@ -1,0 +1,165 @@
+@media(max-width: 600px) {
+    .text {
+        font-size: .8rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 850px) {
+    section .container {
+        grid-template-columns: 1fr;
+    }
+
+    .sky {
+        bottom: 460px;
+    }
+
+    .big-title {
+        top: calc(26% - 3rem);
+        font-size: 23vw;
+    }
+
+    .fort-formob {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        width: 945px;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(49%, 0%);
+    }
+
+    .fort-forpc {
+        display: none;
+    }
+
+    .mount-1 {
+        bottom: 50%;
+        width: 292px;
+        transform: translate(0%, -50%);
+    }
+
+    .water {
+        height: 159px;
+        bottom: 273px;
+    }
+
+    .mount-2 {
+        width: 1007px;
+        bottom: 227px;
+        left: -290px
+    }
+
+    .mount-3 {
+        width: 1389px;
+        bottom: 64px;
+    }
+
+    .mount-4 {
+        width: 1779px;
+        left: -1003px;
+        bottom: 0px
+    }
+
+    .bird-left {
+        left: 12%;
+        width: 25px;
+        top: 180px;
+    }
+
+    .bird-right {
+        right: 20%;
+        width: 33px;
+        top: 114px;
+    }
+
+    .for-pc {
+        display: none;
+    }
+    .for-mob {
+        display: block;
+    }
+}
+
+@media (min-height: 600px) {
+    .fort-formob {
+        transform: translate(49%, -69%);
+    }
+}
+
+@media (min-height: 650px) {
+    .fort-formob {
+        transform: translate(49%, -47%);
+    }
+}
+
+@media (min-height: 718px) {
+    .fort-formob {
+        transform: translate(49%, -28%);
+    }
+}
+
+@media (min-height: 760px) {
+    .fort-formob {
+        transform: translate(49%, -7%);
+    }
+}
+
+@media (min-height: 820px) {
+    .fort-formob {
+        transform: translate(49%, 15%);
+    }
+}
+
+@media (min-height: 885px) {
+    .fort-formob {
+        transform: translate(49%, 45%);
+    }
+}
+
+@media (min-height: 943px) {
+    .fort-formob {
+        transform: translate(49%, 75%);
+    }
+}
+
+@media (min-height: 997px) {
+    .fort-formob {
+        transform: translate(49%, 95%);
+    }
+}
+
+@media (min-height: 1053px) {
+    .fort-formob {
+        transform: translate(49%, 115%);
+    }
+}
+
+@media (min-height: 1108px) {
+    .fort-formob {
+        transform: translate(49%, 125%);
+    }
+}
+
+/* ............ acordion.........  */
+@media (min-width: 45em) {
+    .accordion {
+        flex-direction: row;
+        height: 30rem;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .accordion-panel {
+        transition: flex-basis 500ms, flex-grow 500ms;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .accordion-panel:has([aria-expanded="true"]) p {
+        transition: transform 500ms 500ms, opacity 500ms 500ms;
+    }
+}
