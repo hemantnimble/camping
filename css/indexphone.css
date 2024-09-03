@@ -86,25 +86,25 @@
 
 @media (min-height: 600px) {
     .fort-formob {
-        transform: translate(49%, -69%);
+        transform: translate(49%, -64%);
     }
 }
 
 @media (min-height: 650px) {
     .fort-formob {
-        transform: translate(49%, -47%);
+        transform: translate(49%, -42%);
     }
 }
 
 @media (min-height: 718px) {
     .fort-formob {
-        transform: translate(49%, -28%);
+        transform: translate(49%, -23%);
     }
 }
 
 @media (min-height: 760px) {
     .fort-formob {
-        transform: translate(49%, -7%);
+        transform: translate(49%, -2%);
     }
 }
 
@@ -116,7 +116,7 @@
 
 @media (min-height: 885px) {
     .fort-formob {
-        transform: translate(49%, 45%);
+        transform: translate(49%, 50%);
     }
 }
 
